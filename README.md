@@ -7,8 +7,9 @@ Matrix.h - Max7219 LED Matrix library for Arduino & Wiring
   
 Usage:
 
+// See documentation for Matrix
 
-Matrix myMatrix = Matrix(6, 10, 11,COUNT_MATRIX,true);
+Matrix myMatrix = Matrix(6, 10, 11,COUNT_MATRIX,true); // (pinData,pinLoad,pinSCK,countVerticalMatrices,invertX)
 
 MWriter writer = MWriter(&myMatrix);
 
